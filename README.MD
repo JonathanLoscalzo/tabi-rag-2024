@@ -50,5 +50,5 @@ streamlit run view.py   # esto va a ejecutar un frontend en streamlit para hacer
 
 ## Ejecutar Colab
 
-Ir al archivo [notebook](./TABI_Chatear_con_el_Libro_de_Cátedra_(2024)) y presionar el botón "open in colab". 
+Ir al archivo [notebook](./TABI_Chatear_con_el_Libro_de_Cátedra_(2024).ipynb) y presionar el botón "open in colab". 
 Luego ejecutar todas las celdas. Elegir un entorno de ejecución con GPU/TPU para que sea un poco más rápido.
