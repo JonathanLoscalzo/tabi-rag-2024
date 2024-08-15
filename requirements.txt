@@ -1,0 +1,12 @@
+streamlit
+ollama
+langchain
+langchain_community
+langchain_experimental
+langchain-chroma
+bs4
+chromadb
+pypdf
+rank_bm25
+sentence_transformers
+tqdm
