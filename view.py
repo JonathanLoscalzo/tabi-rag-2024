@@ -8,12 +8,13 @@ st.title("🦜🔗 Preguntas al libro de TABI")
 model = st.selectbox(
     "Modelo",
     (
-        "llama3:8b",
-        "llama3.1:8b",
+        "gemma3:270m",
+        "qwen3:0.6b",
+        "gemma3:1b",
         "mistral:7b",
-        "phi3:latest",
-        "gemma:2b",
-        "qwen2:0.5b",
+        "deepseek-r1:1.5b",
+        "phi4:latest",
+        "llama3.1:latest",
     ),
 )
 tp = TabiPipeline(llm_model=model)

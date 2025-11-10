@@ -31,8 +31,8 @@ class TabiPipeline:
     def __init__(
         self,
         book_path: str = "assets/TABI.pdf",
-        ollama_embeddings: str = "nomic-embed-text",
-        llm_model: str = "llama3.1:8b",
+        ollama_embeddings: str = "embeddinggemma:latest",
+        llm_model: str = "mistral:7b",
     ):
         self.embeddings = OllamaEmbeddings(model=ollama_embeddings)
         self.book_path = book_path
